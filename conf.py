@@ -85,6 +85,6 @@ html_static_path = ['_static']
 #
 # html_sidebars = {}
 #---sphinx-themes-----
-html_theme = 'rtcat_sphinx_theme'
-import rtcat_sphinx_theme
-html_theme_path = [rtcat_sphinx_theme.get_html_theme_path()]
+
+html_theme = "rtcat_sphinx_theme"
+html_theme_path = ["_themes/rtcat_sphinx_theme", ]
