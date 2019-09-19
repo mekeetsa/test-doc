@@ -87,4 +87,4 @@ html_static_path = ['_static']
 #---sphinx-themes-----
 
 html_theme = "rtcat_sphinx_theme"
-html_theme_path = ["_themes/rtcat_sphinx_theme", ]
+html_theme_path = ["rtcat_sphinx_theme", ]
