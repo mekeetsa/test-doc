@@ -4,6 +4,11 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+import rtcat_sphinx_theme
+
+html_theme = "rtcat_sphinx_theme"
+
+html_theme_path = [rtcat_sphinx_theme.get_html_theme_path()]
 
 # -- Project information -----------------------------------------------------
 
